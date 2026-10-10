@@ -1,0 +1,21 @@
+# secrets: NEVER commit
+.env
+
+# data: big, regenerable, possibly licensed (keep the folder via .gitkeep)
+data/*
+!data/.gitkeep
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# node
+node_modules/
+.next/
+
+# editor / OS
+.vscode/
+.DS_Store
